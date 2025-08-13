@@ -1,0 +1,38 @@
++ JSX viết tắt của JavaScript XMl cho phép viết html có cấu trúc hơn 
+<tag class="">                  -->  <tag className=""> 
+<input value=""/>                -->  <input defaultValue=""/> 
+<label for="">                  -->  <label htmlFor=""> 
+<option value="">               -->  <option value={}>
+<tag style="width: 10%">        -->  <tag style={{width: '10%'}}>
+<tag onclick="functionName()">  -->  <tag onClick="{functionName}">
+                                -->  <img src={path}>
+                                     Hello {name}!
+
+
++ Trong JSX chỉ được viết 1 Element cha bọc bên ngoài - để viết được 2 element cha thì chúng ta dùng cú pháp Fragement <></>
+
++ Components
+ Thành phần giúp chia các UI giao diện người dùng thành các phần nhỏ để dễ dàng quản lý và tái sử dụng 
+ ex: header, footer, sidebar
+ các bước tạo : b1: trong folder src tạo 1 folder tên Components
+                b2: trong components tạo 1 folder mới đặt tên theo đúng ý nghĩa của khối đó 
+                b3: tạo 1 file mới đặt tên là index.js sau đó viết 1 function tên là header và export default 
+                b4: import
+
++ props là 1 object được truyền vào component - cho phép giao tiếp giữa các component với nhau bằng cách truyền tham số 
+qua lại giâuwx các component - khi 1 components cha được truyền cho con 1 props thì con chỉ có thể đọc và ko có quyền chỉnh 
+sửa - truyền giống như thêm 1 attributes cho 1 element html - String - Number - Boolean - Undefined - Nulll - Symbol -
+Function - Object - Array 
+
++ chèn icon : https://www.npmjs.com/package/react-icons
+  npm i react-icons
+  https://react-icons.github.io/react-icons
+  b1: import {IoSearchOutline} from "react-icons/io5"
+  b2: <IoSearchOutline>
+
++ Sự kiện trong react giống javaScript khác sơ về cú  pháp 
+  onClick
+  onChange
+  onSubmit
+  onFocus
+  onBlur

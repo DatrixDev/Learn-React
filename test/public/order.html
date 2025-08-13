@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Đặt món</title>
+<style>
+  body{font-family:system-ui,Arial;margin:0;padding:16px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .card{border:1px solid #eee;border-radius:12px;padding:12px}
+  .sticky{position:sticky;top:12px}
+  button,input{font:inherit}
+  input[type=number]{width:64px}
+</style>
+</head>
+<body>
+  <h2 id="tableTitle">🍽️ Bàn</h2>
+  <div class="grid">
+    <div>
+      <h3>Menu</h3>
+      <div id="menu"></div>
+    </div>
+    <div class="sticky">
+      <h3>Đơn của bạn</h3>
+      <div id="cart"></div>
+      <h3 id="total">Tổng: 0 đ</h3>
+      <button id="submitBtn">Gửi bếp</button>
+      <div id="msg" style="margin-top:8px;color:#0a0"></div>
+    </div>
+  </div>
+
+<script>
+const $ = s=>document.querySelector(s);
+const api = p => location.origin.replace(/\/public$/,'') + '/api' + p; // nếu chạy file tĩnh, sửa base URL phù hợp
+
+const qs = new URLSearchParams(location.search);
+// Dùng code trong QR: /public/order.html?code=A1B2C3
+const code = qs.get('code');
+// hoặc bạn dùng ?table=1 (đổi ở API cũng ok)
+const tableIdParam = qs.get('table');
+
+let orderId = null, tableId = null;
+
+async function initOrder() {
+  const url = code ? api(`/order_init.php?code=${encodeURIComponent(code)}`)
+                   : api(`/order_init.php?table_id=${encodeURIComponent(tableIdParam||'')}`);
+  const res = await fetch(url).then(r=>r.json());
+  if(!res.ok) { alert(res.message||'Không khởi tạo được đơn'); return; }
+  orderId = res.order_id; tableId = res.table_id;
+  $('#tableTitle').textContent = `🍽️ Bàn #${tableId}`;
+  await loadMenu();
+  await loadCart();
+}
+
+async function loadMenu() {
+  const res = await fetch(api('/menu.php')).then(r=>r.json());
+  if(!res.ok) return alert('Lỗi tải menu');
+  const box = $('#menu');
+  box.innerHTML = '';
+  res.items.forEach(it=>{
+    const card = document.createElement('div');
+    card.className='card';
+    card.innerHTML = `
+      <div><strong>${it.name}</strong></div>
+      <div>${Number(it.price).toLocaleString()} đ</div>
+      <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
+        <input type="number" min="1" value="1" />
+        <button>Thêm</button>
+      </div>
+    `;
+    const qtyInp = card.querySelector('input');
+    card.querySelector('button').onclick = async ()=>{
+      const body = { order_id: orderId, item_id: it.id, qty: Number(qtyInp.value||1) };
+      const r = await fetch(api('/order_add_item.php'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)}).then(r=>r.json());
+      if(!r.ok) return alert(r.message||'Lỗi thêm món');
+      await loadCart();
+    };
+    box.appendChild(card);
+  });
+}
+
+async function loadCart() {
+  const res = await fetch(api(`/order_get.php?order_id=${orderId}`)).then(r=>r.json());
+  if(!res.ok) return;
+  const cartBox = $('#cart'); cartBox.innerHTML='';
+  res.items.forEach(x=>{
+    const row = document.createElement('div');
+    row.className='card';
+    row.style.display='flex';
+    row.style.justifyContent='space-between';
+    row.innerHTML = `
+      <div>
+        <div><strong>${x.name}</strong></div>
+        <small>x${x.qty} • ${Number(x.price).toLocaleString()} đ</small>
+      </div>
+      <div>${Number(x.total).toLocaleString()} đ</div>
+    `;
+    cartBox.appendChild(row);
+  });
+  $('#total').textContent = 'Tổng: ' + Number(res.order_total).toLocaleString() + ' đ';
+}
+
+$('#submitBtn').onclick = async ()=>{
+  const r = await fetch(api('/order_submit.php'), {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify({order_id: orderId})}).then(r=>r.json());
+  if(r.ok){ $('#msg').textContent='Đã gửi bếp! Nhân viên sẽ xác nhận.'; }
+  else alert(r.message||'Lỗi gửi đơn');
+};
+
+initOrder();
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+Conditional Rendering (Render với điều kiện)
++ trong react chúng ta tạo nhiều component khác nhau, khi co thể render bất kì component nào ta muốn bằng cách sử dụng
+điều kiện tại phần render 
++ cách sử dụng giống java script 
++ từ 1 mảng in ra giao diện 
++ sử dụng SCSS : npm i sass
+    tạo scss cùng cấp với components
+    import "./ten.scss"
++ Hooks(gắn vào, móc vào)
+  có 2 loại components class components và function components
+  trước đây người ta thường code theo hướng class components 
+  bây giờ thì function components vì đầy đủ tính năng và ngắn hơn 
++ có 10 loại Hooks
+    useState
+    useEffect
+    useContext
+    useRef
+    useCallback
+    useMemo
+    useReducer
+    useLayoutEffect
+    useImperativeHandle
+    useDebugValue
+
++ useState giúp cập nhật lại trạng thái của dữ liệu - khi dữ liệu thay đổi giao diện được cập nhật lại  

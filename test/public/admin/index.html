@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Admin Đơn</title>
+<style>
+  body{font-family:system-ui,Arial;margin:0;padding:16px}
+  table{border-collapse:collapse;width:100%}
+  th,td{border:1px solid #ddd;padding:8px}
+</style>
+</head>
+<body>
+  <h2>Đơn trạng thái: <select id="st"><option>pending</option><option>confirmed</option><option>paid</option></select></h2>
+  <table>
+    <thead><tr><th>ID</th><th>Bàn</th><th>Trạng thái</th><th>Tổng</th><th>Giờ</th></tr></thead>
+    <tbody id="tb"></tbody>
+  </table>
+<script>
+const api = p => location.origin.replace(/\/public\/admin$/,'') + '/api' + p;
+async function load(){
+  const s = document.querySelector('#st').value;
+  const res = await fetch(api(`/orders_list.php?status=${encodeURIComponent(s)}`)).then(r=>r.json());
+  const tb = document.querySelector('#tb'); tb.innerHTML='';
+  (res.orders||[]).forEach(o=>{
+    const tr = document.createElement('tr');
+    tr.innerHTML = `<td>${o.id}</td><td>${o.table_name} (#${o.table_id})</td><td>${o.status}</td><td>${Number(o.total).toLocaleString()} đ</td><td>${o.created_at}</td>`;
+    tb.appendChild(tr);
+  });
+}
+document.querySelector('#st').onchange = load;
+setInterval(load, 4000);
+load();
+</script>
+</body>
+</html>

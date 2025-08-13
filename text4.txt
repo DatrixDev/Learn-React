@@ -1,0 +1,11 @@
++ useEffect dùng để xử lý logic nào đó khi data dữ liệu được thay đổi 
++ component sau khi được reder ra giao diện lần đầu thì sẽ gọi tới hàm callback của useEffect vì chúng ta ưu tiên việc render ra giao diện trước,
+    xử lý logic sau  nên callback của useEffect sẽ chạy sau khi component được reder ra 
++ useEffect(callback,[dependency]); callback: là hàm gọi lại, nắt buộc phải có 
+                                    dêpndency: là 1 biến ko bắt buộc phải có
++ useEffect(callBack) : khi render giao diện 2 lần trở đi callback của useEffect vẫn được gọi lại 
++ useEffect(callBack,[]) : khi render 2 lần thì callBack ko được gọi lại, thường áp dụng cho gọi api 1 lần để lấy dữ liệu 
+    lấy data từ api và render ra giao diện 
++ useEffect(callBack, [dependency] ) : khi render 2 lần trở đi thì callBack của useEffect được gọi lại khi dependency thay đổi
+    làm pagination phân trnag 
+    API : https://dummyjson.com/products?skip=0&limit=30

@@ -1,0 +1,74 @@
+Multiple Page Application and Single Page Application 
++ MPA là kiểu website hoạt đọng theo cách truyền thống, khi người dùng yêu cầu 1 trang web thì 
+  server nó sẽ tính toán và trả về web được load mới hoàn toàn 
++ SPA người dùng có thể truy cập nhiều trang con mà ko ảnh hưởng đến trang gốc
+  , chỉ chạy nội dung của thành phần đó mà ko load lại toàn bộ 
++ React_JS là mã nguồn mở được pháttrieenr bới fb 2013
++ React_JS là thư viện viết bằng Java_Script được xây dựng giao diện người dùng 
++ Giúp xây dựng SPA 1 cách nhanh chóng
+
+Cài đặt 
++ npm install -g create-react-app làm 1 lần duy nhất 
++ npx create-react-app ten-du-an
++ cd ten-du-an để đi vào thư mục 
++ npm start 
+
+Tạo project React bằng Vite
++ npm create vite@latest ten-du-an
++ cd ten-du-an
++ npm install
++ npm run dev
+
+node_modules : chứa các thư viện được cài đặt cho tất cả các dự án, ko thao tác trong mục này 
+public : chứa tất cả các file output là file sẽ tương tác trực tiếp với trình duyệt như : Html, image 
+src : chứa tất cả các file input ,javaScript,css 
+package.json : lưu trữ thông tin 
+
+
++ index.html ko chứa bất kì nội dung nào hiển thị ngoài trình duyệt, tất cả được render vào root
++ app.js : đoạn code bên trong return chính là nội dung được hiển thị bên trong trình duyệt - liên kết với index.html thông qua index.js
+
++ Variables(Biến) : var, let, const 
+var: khai báo toàn cục, cục bộ
+let: giống var tuy nhiên có tác dụng phạm vi bên trong 1 khối như if for 
+const: chỉ mang duy nhất 1 giá trị nếu thay đổi sẽ bị lỗi 
+
++ Default parameters (Tham số mặc định) : cho phép các tham số mang giá trị mặc định  nếu ko có giá trị hoặc giá trị ko 
+xác định - gán mặc định tại vị trí khai báo và gán bên trong function 
+
++ Spread syntax : là 1 phép lặp lại các phàn tử mảng (array) hoặc object được thể hiện dưới dấu ...
+
++Rest parameters : tham số còn lại là đại diện cho những tham số ko được khai báo của 1 function,khi sử dụng khai báo bên trong của 1 function
+thì khi gọi function sẽ ko giới hạn truyền vào được kí hiệu ...name cẩn thận nhầm với spread syntax 
+
+
++ Destructuring cho phép chúng ta dễ dàng sử dụng các giá triij phần tử của Array hoặc Object
+
++Arrow function 
+ var functionName = (val1,val2,..) => {
+  code
+ }
+
+
+ + Export Import
+  export const funtionName = () =>{
+    code
+  }
+
+  import {functionName} from ".js";
+  import* as functionName from ".js";
+
+
++ forEach()
+ forEach() : là 1 phương thức có sẵn của array, để duyệt qua mỗi phần tử của mảng và thực hiện 1 hành động nào đó 
+ forEach() : ko tạo ra mảng mới chỉ sửa mảng hiện tại 
+ arr.forEach(function(currentValue, index, array){
+  code
+ })
+
+ + map()
+  map() : sẽ duyệt qua từng phần  tử của mảng. giá trị trả về của map là 1 mảng mới với số lượng phần tử bằng với mảng cũ  
+  nhưng giá trị được quyết định bởi lệnh return 
+  arr.map(function(currentValue, index, array){
+    code
+  })
