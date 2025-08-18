@@ -1,0 +1,25 @@
++ useContext giúp đơn giản hóa việc chuyển dữu liệu từ components cha xuống components con mà ko cần sử dụng props
++ ko cần thông qua component gián tiếp
++ B1 : tạo bối cảnh ở components A 
+import { createContext } from "react";
+export const Acontext = createContext();
++ B2 : cung cấp bối cảnh để bao bọc toàn bộ các components cần sử dụng data
+    function A () {
+        return (
+            <Acontext.Provider value={data}>
+            <B/>
+            </Acontext.Provider>
+        );
+    }
+
++ B3 : Sử dụng các useContext ở component con để có thể lấy được data từ components cha 
+import { useContext } from "react";
+import { AContext } from "url_component_A";
+function C(){
+    const data = useContext(AContext);
+    return (
+        <>
+        {data}
+        </>
+    )
+}

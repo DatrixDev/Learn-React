@@ -1,24 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './Components/Counter';
+import Layout from './Components/Layout';
+import RandomGift from './Components/RandomGift';
+import UseRef from './Components/UseRef';
+import UseRef2 from './Components/UseRef2';
+import UseRef4 from './Components/UseRef4';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <>
+   <Layout></Layout>
+   <UseRef/>    
+   <UseRef2/>   
+   <RandomGift/>  
+   <UseRef4/> 
+   <Counter/>
+   </>
   );
 }
 

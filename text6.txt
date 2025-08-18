@@ -1,0 +1,19 @@
++ useRef trả về 1 Object với thuộc tính current được khởi tạo thông qua tham số truyền vào
+Object được trả về ko bị khởi tạo lại khi components reder lại 
++ giá trị trong object thay đổi nhưng components ko bị render lại (useState thay đổi thì làm component render lại)
++ cú pháp : const tenBien = useRef(initialValue);
+trong đó : 
+  initialValue : là giá trị khởi tạo
+useRef được sử dụng để truy cập các phần tử trong DOM
+
++ React.memo() : dùng để ghi nhớ lại kết quả - sẽ ko render lại nếu kết quả giống kết quả trước - là thành phần cao hơn dùng 
+  để bọc components
+cú pháp: import { memo } from "react";
+function Component() {
+  return (
+    <>
+    </>
+  )
+}
+
+export default memo(Component);
