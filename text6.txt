@@ -17,3 +17,26 @@ function Component() {
 }
 
 export default memo(Component);
+
+
++ useCallback giúp tránh thực thi các hàm ko cần thiết 
++ const functionName = useCallback(callback, dependency);
+trong đó : callback : là hàm được gọi lại, lần render đầu tiên luôn chạy vào hàm này 
+           dependency : là sự phụ thuộc khi dependency thay đổi thì useCallback tạo ra 1 hàm mới 
+
++ useMemo giúp tránh thực hiện lại 1 logic ko cần thiết
++ useMemo tạo ra 1 vùng nhớ để lưu giá trị đầu ra và chỉ khi nhớ giá trị mới khi dependencies thay đổi 
++ const variableName = useMemo(callback, depencency);
++ trong đó callback là hàm được gọi lại, lầm render đầu tiên luôn chạy vào hàm này 
++ dependency là sự phụ thuộc, khi depencency thay đổi thì useMemo cập nhật lại giá trị 
++ useCallback lưu vào bộ nhớ 1 hàm 
++ useMemo lưu vào bộ nhớ 1 giá trị
++ useReducer giống như một phiên bản nâng cao của useState, được sử dụng khi components có state phức tạp
++ const[state,dispatch] = useReducer(reducer,initialState);
+b1 : khởi tạo useReducer và xác định vị trí khởi tạo
+b2 : xây dựng hàm reducer như 1 hàm chuyển đổi (state và action) đầu ra là (newstate và state mới)
+b3 : xác định những Action (xác định những hành động sẽ xảy ra)
+b4 : sử dụng Dispatch để xác kích hoạt 1 action 
+
++ Skeleton khi loading dữ liệu của web
++ NPM : https://www.npmjs.com/package/react-loading-skeleton

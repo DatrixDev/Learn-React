@@ -1,0 +1,27 @@
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.product__item{
+    width: 40%;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.product__image{
+    width: 100%;
+    aspect-ratio: 4/3;
+}
+.product__image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+}
+.product__title {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
