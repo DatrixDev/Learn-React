@@ -1,0 +1,28 @@
+React Router là 1 thư viện được viết bằng React để quản lý dung lượng routing trong các ứng dụng web 
+ + https://domain.com
+ + https://domain.com/contact
++ htpps://www.npmjs.com/package/react-router-dom
++ npm i react-router-dom
++ BrowserRouter : Để kết nối ứng dụng của bạn với URL của trình duyệt thì phải import BrownserRouter và bọc nó bên 
+ngoài toàn bộ ứng dụng chính là app
++ Routes : Cung cấp các đường truyền (routes) để điều hướng các thành phần của ứng dụng React. 
++ Route : Được sử dụng để định nghĩa 1 route để điều hướng đến 1 component cụ thể 
++ Link : Cho phép chuyển đổi giữa các URL khác nhau mà ko cần load lại trang 
++ Outlet : Nó dùng để xác định vị trí mà component trong route được hiển thị
++ Navlink : Cũng giống link, nhưng nếu URL trùng với link của NavLink thì thêm class là active
++ Navigate : Sử dụng Navigate để tự động chuyển hướng đến 1 trang nào đó  
++ Nested Routes : Để tạo ra các route lồng nhau 
+ví dụ : https://domain.com/blog/news: Trang tin tức nói
+      : https://domain.com/blog/related : trang tin tức có liên quan
+
++ Index routes 
+ + Để hiển thị component ở route con ra ngoài route cha 
+ + Để làm được điều này ta sử dụn index và truyền component con muốn được hiển thị 
++ Dynamic routes giúp chúng ta tạo ra được các routes động
+
++ Hooks của React Router
+ useParams : Dùng để lấy được tham số trên param
+ useNavigate : Dùng để điều hướng đến 1 đường dẫn khác, hoặc trở về các trang trước đó đã truy cập
++ Protected routed : giả sử app có 2 phần public và private (Đăng nhập thì dùng private ko đăng nhập thì dùng public)
++ Route Objects : Hook useRoutes : dùng để xác định các tuyến đường dưới dạng object thuần javaScript thay cho <Routes/> 
+và <Route/>

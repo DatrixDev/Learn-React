@@ -1,0 +1,33 @@
+.product {
+    display:  flex;
+    flex-wrap: wrap;
+
+    &__item {
+        width: 45%;
+        margin-right: 20px;
+        border:  1px solid #ddd;
+        margin-bottom: 30px;
+        padding: 10px;
+    }
+
+    &__image {
+        width: 100%;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+    }
+
+    &__price-new {
+        font-size: 20px;
+        font-weight:700;
+        color: green;
+    }
+
+    &__price-old {
+        text-decoration: line-through;
+        font-weight: 700;
+    }
+    &__percent {
+        font-weight:  700;
+        color: orange;
+    }
+}

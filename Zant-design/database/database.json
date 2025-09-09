@@ -1,0 +1,114 @@
+{
+  "book-room": [
+    {
+      "id": "8efb",
+      "time": "14 giờ",
+      "fullName": "Võ Quốc Đạt",
+      "phone": "0559753521",
+      "email": "datvq.24it@vku.udn.vn",
+      "gift": "Xe máy",
+      "service": [
+        "Thuê ô tô"
+      ],
+      "date": [
+        "14-10-2025",
+        "30-10-2025"
+      ]
+    },
+    {
+      "id": "dbf3",
+      "time": "14 giờ",
+      "fullName": "Võ Quốc Đạt",
+      "phone": "0559753521",
+      "email": "datvq.24it@vku.udn.vn",
+      "gift": "Xe máy",
+      "service": [
+        "Thuê ô tô"
+      ],
+      "date": [
+        "14-10-2025",
+        "30-10-2025"
+      ]
+    },
+    {
+      "id": "f865",
+      "time": "13 giờ",
+      "fullName": "Võ Quốc Đạt",
+      "phone": "0559753521",
+      "email": "dat23326@gmail.com",
+      "gift": "Xe máy",
+      "service": [
+        "Thuê ô tô"
+      ],
+      "date": [
+        "20-09-2025",
+        "22-10-2025"
+      ]
+    },
+    {
+      "id": "8eab",
+      "time": "13 giờ",
+      "fullName": "Võ Quốc Đạt",
+      "phone": "0559753521",
+      "email": "dat23326@gmail.com",
+      "gift": "Xe máy",
+      "service": [
+        "Thuê ô tô"
+      ],
+      "date": [
+        "20-09-2025",
+        "22-10-2025"
+      ]
+    },
+    {
+      "id": "ce1b",
+      "time": "13 giờ",
+      "fullName": "Võ Quốc Đạt",
+      "phone": "0559753521",
+      "email": "dat23326@gmail.com",
+      "gift": "Xe máy",
+      "service": [
+        "Thuê ô tô"
+      ],
+      "date": [
+        "20-09-2025",
+        "22-10-2025"
+      ]
+    },
+    {
+      "id": "781d",
+      "time": "13 giờ",
+      "fullName": "s",
+      "email": "s",
+      "gift": "Xe máy",
+      "service": [
+        "Thuê ô tô"
+      ],
+      "date": [
+        "22-10-2025",
+        "24-10-2025"
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1761",
+      "name": "dsdfsdf",
+      "quantityBed": 1,
+      "quantityPeople": 1,
+      "description": "sss",
+      "utils": "Internet",
+      "status": true,
+      "typeRoom": false
+    },
+    {
+      "id": "06ce",
+      "name": "dfs",
+      "quantityBed": 1,
+      "quantityPeople": 1,
+      "description": "dfs",
+      "utils": "Internet",
+      "status": true
+    }
+  ]
+}

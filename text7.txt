@@ -1,0 +1,16 @@
+Vấn đề và giải pháp chia sẽ data giữa các components
+ + để truyền được data giữa các compoments ta phải truyền data lên app sau đó mới truyền sang các components khác
+ được , nếu sau này có nhiều components sẽ làm cho app bị rối 
+ + redux data của ứng dụng được lưu ở store và mỗi components đều có thể truy cập bất kỳ data nào mà chúng muốn từ 
+ store này 
+ + redux đùng để quản lý state(trạng thái) của toàn bộ ứng dụng (giống khai báo biến toàn cục)
+ + npm i redux react-redux
+ + thêmm những action vào file actions/tenFile.js
+ + thêm reducer vào file reducers/tenFile.js
+ + tạo file reducers/index.js để gộp tất cả các reducers vào cùng 1 store 
+ + sử dụng hàm combineReducer của redux để hợp nhất tất cả các  reducer thành 1 reducer là allReducers
+ + ở index.js (file cấp cao nhất) sử dụng hàm createStore để tạo store chứa allReducers
+ + gói <App></App> bên trong 1 components hỗ trợ của react-redux là Provider nhờ đó tất cả các components trong <App/>
+ đều truy cập được store
+ + sử dụng useSelector của react-redux để lấy các state từ store 
+ + sử dụng useDispatch để trả về function dispatch, truyền các action vào dispatch để cập nhật lại state 

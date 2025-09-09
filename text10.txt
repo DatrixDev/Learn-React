@@ -1,0 +1,46 @@
++ input : đọc docs
++ Checkbox : 
++ DatePicker 
+    + allowClear : có hiển thị nút clear hay ko 
+    + autoFocus : tự động focus khi component được render 
+    + bordered : có thêm border hay ko 
+    + disabled : để vô hiệu hóa, ko cho chọn 
+    + format : dùng để định dạng ngày  https://day.js.org/docs/en/display/format
+    + placement : vị trí bảng được mở lên 
+    + size : đặt kích thước của ô input larget | middle | small
+    + status : đặt trạng thái xác thực 
++ radio : autoFocus : tự động focus vào khi components render xong
+    + checked : chỉ định xem radio có được chọn hay ko 
+    + disabled : vô hiệu hóa radio 
+    + value : Giá trị của radio 
++ iconRender : Button có thể toggle để đổi icon
++ select : allowClear : Hiển thị nút clear data
+           autoFocus : Tự động focus vào thẻ Select
+           bordered : Thêm border hay ko 
+           clearIcon : Tùy chỉnh icon clear
+           defaultOpen : Trạng thái mở ban đầu dropdown 
+           defaultValue : Tùy chọn được chọn ban đầu 
+           disable : Vô hiệu hóa 
+           fillterOption : lọc
++ Switch : Công tắt 
++ Form :
+    - colon : có hiển thị dấu : sau label hay ko
+    - disable : vô hiệu hóa biểu mẫu
+    - form 
+    - initialValues : đặt giá trị khởi tạo cho biểu mẫu 
+    - labelWrap : nếu nội dung quá dài thì tự động xuống dòng hay ko 
+    - layout : bố cục biểu mẫu
+    - name : tên biểu mẫu làm tiền tố cho id
++ Badge : huy hiệu thông báo
++ Carouse : Slide nên dùng sniper 
++ Collapse : 
++ Image : 
++ Table :
++ Tabs :
++ Tooltip : show lên cái topup nhỏ
++ Message : 
++ Modal :
++ Notification :
++ Spin : 
++ QR code:
++ Rate : sao đánh giá

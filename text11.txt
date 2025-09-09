@@ -1,0 +1,15 @@
++ Ant Design Charts là thư viện dùng để hiển thị các biểu đồ trên web với UI được thiết kế theo phong cách ant
++ Cách sử dụng : 
+  + npm i @ant-design/charts --save
+  + B1 : Import {Line} from '@ant-design/plots';
+  + B2 : Nhúng chart: <Line {...config}/>
+  + B3 : Thêm object config 
+
+   const config = {
+    data : dataChart,
+    xField : "field hiển thị theo trục x",
+    yField : "field hiển thị theo trục y" 
+   };
++ Api demo: https://khoa-hoc-front-end.vercel.app/api/basic-line.json
+            https://khoa-hoc-front-end.vercel.app/api/doanh-thu-cong-ty.json
++ charts.ant.design

@@ -1,0 +1,73 @@
++ Ant Design là thư viện để xây dựng giao diện người dùng 
++ https://ant.design/
++ https://www.npmjs.com/package/antd
++ npm i antd
++ Button : block : chiều rộng của button bằg chiều rộng của element cha
+           danger : nguy hiểm
+           disabled : trạng thái button bị vô hiệu hóa 
+           ghost : trong suốt
+           href : chèn link 
+           icon : chèn icon
+           loading : thêm loading
+           shape : hình dạng
+           size : kích thước - có 3 kiểu kích thước : large , middle , small
+           target 
+           type : kiểu
+           onClick : lắng nghe sự kiện 
++ các bước nhúng icon 
+ + imnport { SearchOutlined } from "@ant-design/icons"
+ + chèn icon<SearchOutlined/> vào vị trí  
+ + Grid 
+  - row : align : Căn dọc top,middle , bottom , stretch 
+          gutter : Khoảng cách giữa các cột  number
+          justify : căn các cột theo chiều ngang start, end, center, space-around, space-between, space-evenly
+          wrwp : tự động xuống dòng boolean
+  - col :   flex : độ rộng của cột linh hoạt  : auto, none, 100px, 200px
+            offset : cách bên trái bao nhiêu cột : number
+            order : thứ tự của cột : number
+            span : số lượng cột cho box
+            xs : < 576px
+            sm : >= 576px
+            md : >= 768px
+            lg : >= 992px
+            xl : >= 1200px
+            xxl : >= 1600px 
+
++ Layout : xử lý bố cục tổng thể trong 1 trang 
+ - Bao bọc toàn bố cục tương ứng với thẻ <section></section>
+ - Bên trong có thể chứa các components : Header, Sider, Content, Footer hoặc lồng 1 layout khác
+ - Header = <Header></Header>
+ - Sider = <aside></aside>
+ - Content = <main></main>
+ - Footer = <footer></footer>
+
++ API cho Sider
+ - breakpoint : Điểm ngắt của reponsive giao diện, mặc định Sider mở ra nếu chiều rộng màn hình nhỏ hơn điểm ngắt 
+ đó thì Sider tự động đóng vào 
+ - collapsed : Để thiết lập Sider là mở hay đóng 
+ - collapsedWidth : Chiều rộng của Sider khi đang được đóng , nếu = 0 chỉ hiện menu icon 
+ - collapsible : Có hiển thị nút đóng mở hay ko 
+ - theme : chủ đề màu
+ - trigger : tùy chỉnh nút đóng mở (null là ẩn)
+ - width : Chiều rộng của Sider 
+ - onBreakpoint : được kích hoạt khi điểm ngắt thay đổi
+ - onCollapse : được kích hoạt khi điểm ngắt thay đổi , khi bấm nút đóng mở 
+
++ Dropdown 
+ - arrow : mũi tên thả xuống của popup menu 
+         pointAtCenter : true dùng để căn giữa mũi tên 
+ - disabled : ko cho chọn item nào đó 
+ - dropdownRender : tùy chỉnh nội dung cho dropdown
+ - menu : để chèn array menu vào 
+ - placement : vị trí của popup menu : bottom, bottomLeft, ..
+ - trigger : kích hoạt kiểu hành động của dropdown
++ Menu : defaultOpenKeys : thiết lập xem menu con có mở mặc định hay đóng 
+         defaultSelectedKeys : thiết lập item nào mặc định đang active 
+         expandlcon : đổi item mũi tên mở đóng cho các item
+         forceSubMenuRender : Render menu con vào DOM trước khi nó hiển thị  
+         items : danh sách các item trong menu
+         mode : loại menu
+         multiple : cho phép hiển thị nhiều mục
+         openKeys : 1 mảng menu con mặc định đang được mở 
+         onOpenChange : được gọi khi menu con đang mở hoặc đang đóng 
+         onSelect : được gọi khi menu được chọn 

@@ -1,0 +1,278 @@
+{
+  "chart":
+[
+  {
+    "date": "01-2020",
+    "quantity": 5123
+  },
+  {
+    "date": "02-2020",
+    "quantity": 4890
+  },
+  {
+    "date": "03-2020",
+    "quantity": 4500
+  },
+  {
+    "date": "04-2020",
+    "quantity": 3800
+  },
+  {
+    "date": "05-2020",
+    "quantity": 4250
+  },
+  {
+    "date": "06-2020",
+    "quantity": 5300
+  },
+  {
+    "date": "07-2020",
+    "quantity": 5890
+  },
+  {
+    "date": "08-2020",
+    "quantity": 6100
+  },
+  {
+    "date": "09-2020",
+    "quantity": 6340
+  },
+  {
+    "date": "10-2020",
+    "quantity": 6800
+  },
+  {
+    "date": "11-2020",
+    "quantity": 7150
+  },
+  {
+    "date": "12-2020",
+    "quantity": 7900
+  },
+  {
+    "date": "01-2021",
+    "quantity": 6200
+  },
+  {
+    "date": "02-2021",
+    "quantity": 5980
+  },
+  {
+    "date": "03-2021",
+    "quantity": 6850
+  },
+  {
+    "date": "04-2021",
+    "quantity": 7120
+  },
+  {
+    "date": "05-2021",
+    "quantity": 7540
+  },
+  {
+    "date": "06-2021",
+    "quantity": 8100
+  },
+  {
+    "date": "07-2021",
+    "quantity": 8430
+  },
+  {
+    "date": "08-2021",
+    "quantity": 8760
+  },
+  {
+    "date": "09-2021",
+    "quantity": 8990
+  },
+  {
+    "date": "10-2021",
+    "quantity": 9400
+  },
+  {
+    "date": "11-2021",
+    "quantity": 9750
+  },
+  {
+    "date": "12-2021",
+    "quantity": 10800
+  },
+  {
+    "date": "01-2022",
+    "quantity": 7580
+  },
+  {
+    "date": "02-2022",
+    "quantity": 7230
+  },
+  {
+    "date": "03-2022",
+    "quantity": 8100
+  },
+  {
+    "date": "04-2022",
+    "quantity": 8340
+  },
+  {
+    "date": "05-2022",
+    "quantity": 8890
+  },
+  {
+    "date": "06-2022",
+    "quantity": 9210
+  },
+  {
+    "date": "07-2022",
+    "quantity": 9550
+  },
+  {
+    "date": "08-2022",
+    "quantity": 9900
+  },
+  {
+    "date": "09-2022",
+    "quantity": 10120
+  },
+  {
+    "date": "10-2022",
+    "quantity": 10560
+  },
+  {
+    "date": "11-2022",
+    "quantity": 10870
+  },
+  {
+    "date": "12-2022",
+    "quantity": 11500
+  },
+  {
+    "date": "01-2023",
+    "quantity": 8455
+  },
+  {
+    "date": "02-2023",
+    "quantity": 8015
+  },
+  {
+    "date": "03-2023",
+    "quantity": 9276
+  },
+  {
+    "date": "04-2023",
+    "quantity": 9617
+  },
+  {
+    "date": "05-2023",
+    "quantity": 9380
+  },
+  {
+    "date": "06-2023",
+    "quantity": 10585
+  },
+  {
+    "date": "07-2023",
+    "quantity": 11620
+  },
+  {
+    "date": "08-2023",
+    "quantity": 12211
+  },
+  {
+    "date": "09-2023",
+    "quantity": 11980
+  },
+  {
+    "date": "10-2023",
+    "quantity": 12540
+  },
+  {
+    "date": "11-2023",
+    "quantity": 13100
+  },
+  {
+    "date": "12-2023",
+    "quantity": 14500
+  },
+  {
+    "date": "01-2024",
+    "quantity": 10800
+  },
+  {
+    "date": "02-2024",
+    "quantity": 9950
+  },
+  {
+    "date": "03-2024",
+    "quantity": 11200
+  },
+  {
+    "date": "04-2024",
+    "quantity": 11500
+  },
+  {
+    "date": "05-2024",
+    "quantity": 12300
+  },
+  {
+    "date": "06-2024",
+    "quantity": 13450
+  },
+  {
+    "date": "07-2024",
+    "quantity": 14100
+  },
+  {
+    "date": "08-2024",
+    "quantity": 14800
+  },
+  {
+    "date": "09-2024",
+    "quantity": 14400
+  },
+  {
+    "date": "10-2024",
+    "quantity": 15200
+  },
+  {
+    "date": "11-2024",
+    "quantity": 15800
+  },
+  {
+    "date": "12-2024",
+    "quantity": 17000
+  },
+  {
+    "date": "01-2025",
+    "quantity": 13500
+  },
+  {
+    "date": "02-2025",
+    "quantity": 12800
+  },
+  {
+    "date": "03-2025",
+    "quantity": 14100
+  },
+  {
+    "date": "04-2025",
+    "quantity": 14600
+  },
+  {
+    "date": "05-2025",
+    "quantity": 15200
+  },
+  {
+    "date": "06-2025",
+    "quantity": 16300
+  },
+  {
+    "date": "07-2025",
+    "quantity": 17000
+  },
+  {
+    "date": "08-2025",
+    "quantity": 17500
+  }
+]
+}
+
