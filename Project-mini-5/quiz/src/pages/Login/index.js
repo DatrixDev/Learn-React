@@ -30,39 +30,7 @@ function Login() {
     };
 
     return (
-        // <Form
-        //     layout="vertical"
-        //     name="login"
-        //     form={form}
-        //     onFinish={handleSubmit}
-        // >
-        //     <Form.Item
-        //         name="email"
-        //         rules={[
-        //             { required: true, message: "Vui lòng nhập email!" },
-        //             { type: "email", message: "Email không hợp lệ!" },
-        //         ]}
-        //     >
-        //         <Input placeholder="Nhập email" />
-        //     </Form.Item>
-
-        //     <Form.Item 
-        //         label="Mật khẩu"
-        //         name="password"
-        //         rules={[
-        //             { required: true, message: "Vui lòng nhập mật khẩu!" },
-        //             { min: 6, message: "Mật khẩu phải ít nhất 6 ký tự!" },
-        //         ]}
-        //     >
-        //         <Input.Password placeholder="Nhập mật khẩu" />
-        //     </Form.Item>
-
-        //     <Form.Item>
-        //         <Button type="primary" htmlType="submit" block>
-        //             Login
-        //         </Button>
-        //     </Form.Item>
-        // </Form>
+    
         <>
             <form onSubmit={handleSubmit}>
                 <h2>login</h2>

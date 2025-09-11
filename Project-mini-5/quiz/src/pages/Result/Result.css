@@ -1,0 +1,18 @@
+/* đáp án đúng */
+.result__item--result {
+  color: green;
+  font-weight: bold;
+}
+
+/* đáp án user chọn (dù đúng hay sai) */
+.result__item--user {
+  background-color: #fff3cd; /* vàng nhạt */
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* đáp án user chọn nhưng sai */
+.result__item--selected {
+  color: red;
+  font-style: italic;
+}

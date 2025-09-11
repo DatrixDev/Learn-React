@@ -1,0 +1,589 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyen Thi A",
+      "email": "nguyenthia@gmail.com",
+      "password": "nguyenthia",
+      "token": "bkP9VQydMBRmW67obqD7"
+    },
+    {
+      "id": 2,
+      "fullName": "Do Thi B",
+      "email": "dothib@gmail.com",
+      "password": "dothib",
+      "token": "KsZitkpWbbPF3fdjBqWh"
+    },
+    {
+      "id": 3,
+      "fullName": "Ngo Van C",
+      "email": "ngovanc@gmail.com",
+      "password": "ngovanc",
+      "token": "abVy7NJdWNqGcCD9Lo"
+    },
+    {
+      "id": 4,
+      "fullName": "Le Van D",
+      "email": "levand@gmail.com",
+      "password": "levand",
+      "token": "tq7nF9X9G3wUnrU76P5"
+    },
+    {
+      "id": 5,
+      "fullName": "Nguyen Thi E",
+      "email": "nguyenthie@gmail.com",
+      "password": "nguyenthie",
+      "token": "NU2pOY2SHfNXYdeoPuTO"
+    },
+
+    {
+      "id": 6,
+      "fullName": "Tran Thi F",
+      "email": "tranthif@gmail.com",
+      "password": "tranthif",
+      "token": "aZx9PQwMdRNs67opUyT"
+    },
+    {
+      "id": 7,
+      "fullName": "Pham Van G",
+      "email": "phamvang@gmail.com",
+      "password": "phamvang",
+      "token": "vNk3J7dwQmZxCC2Plo9"
+    },
+    {
+      "id": 8,
+      "fullName": "Hoang Thi H",
+      "email": "hoangthih@gmail.com",
+      "password": "hoangthih",
+      "token": "LpQ7vX9Kp3GmWrT6u2F"
+    },
+    {
+      "id": 9,
+      "fullName": "Bui Van I",
+      "email": "buivani@gmail.com",
+      "password": "buivani",
+      "token": "NmT8fPZq4Kw2xLr7oY3"
+    },
+    {
+      "id": 10,
+      "fullName": "Dang Thi J",
+      "email": "dangthij@gmail.com",
+      "password": "dangthij",
+      "token": "QpL9rVx8ZmN5tUw4kH2"
+    },
+
+    {
+      "id": 11,
+      "fullName": "Nguyen Van K",
+      "email": "nguyenvank@gmail.com",
+      "password": "nguyenvank",
+      "token": "Zq3xL7mN9pRt2yU5kW"
+    },
+    {
+      "id": 12,
+      "fullName": "Tran Thi L",
+      "email": "tranthil@gmail.com",
+      "password": "tranthil",
+      "token": "Yp8dX4qM2sWn6cT9rJ"
+    },
+    {
+      "id": 13,
+      "fullName": "Pham Van M",
+      "email": "phamvanm@gmail.com",
+      "password": "phamvanm",
+      "token": "Lp5rT2vK9qZm8oW4nH"
+    },
+    {
+      "id": 14,
+      "fullName": "Hoang Thi N",
+      "email": "hoangthin@gmail.com",
+      "password": "hoangthin",
+      "token": "Qr7nF8xP3kVm6tY2wB"
+    },
+    {
+      "id": 15,
+      "fullName": "Bui Van O",
+      "email": "buivano@gmail.com",
+      "password": "buivano",
+      "token": "Wx2cT9vN6rLp3kY7qM"
+    },
+
+    {
+      "id": 16,
+      "fullName": "Dang Thi P",
+      "email": "dangthip@gmail.com",
+      "password": "dangthip",
+      "token": "Pn7dK4mQ2sVx9tY8rW"
+    },
+    {
+      "id": 17,
+      "fullName": "Nguyen Van Q",
+      "email": "nguyenvanq@gmail.com",
+      "password": "nguyenvanq",
+      "token": "Kz3nP9rM5tXv7yU6qJ"
+    },
+    {
+      "id": 18,
+      "fullName": "Tran Thi R",
+      "email": "tranthir@gmail.com",
+      "password": "tranthir",
+      "token": "Mw6tY9vP3kQn7rX2jH"
+    },
+    {
+      "id": 19,
+      "fullName": "Pham Van S",
+      "email": "phamvans@gmail.com",
+      "password": "phamvans",
+      "token": "Jq9rN4mP6tXv2yK7wD"
+    },
+    {
+      "id": 20,
+      "fullName": "Hoang Thi T",
+      "email": "hoangthit@gmail.com",
+      "password": "hoangthit",
+      "token": "Xw3tR8pM7nKq5yV6jB"
+    }
+
+  ],
+  "topics": [
+  {
+    "id": 1,
+    "name": "HTML5"
+  },
+  {
+    "id": 2,
+    "name": "CSS3"
+  },
+  {
+    "id": 3,
+    "name": "Javascript"
+  },
+  {
+    "id": 4,
+    "name": "ReactJS"
+  },
+  {
+    "id": 5,
+    "name": "NodeJS"
+  },
+  {
+    "id": 6,
+    "name": "ExpressJS"
+  },
+  {
+    "id": 7,
+    "name": "MongoDB"
+  },
+  {
+    "id": 8,
+    "name": "MySQL"
+  },
+  {
+    "id": 9,
+    "name": "Git & GitHub"
+  },
+  {
+    "id": 10,
+    "name": "TypeScript"
+  }
+],
+"questions": [
+  {
+    "id": 1,
+    "topicId": 1,
+    "question": "HTML là viết tắt của...?",
+    "answers": [
+      "Hyperlinks and Text Markup Language",
+      "Home Tool Markup Language",
+      "Hyper Text Markup Language"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "id": 2,
+    "topicId": 1,
+    "question": "Ai là người đưa ra các tiêu chuẩn Web?",
+    "answers": [
+      "Tổ chức World Wide Web Consortium (W3C)",
+      "Apple",
+      "Google",
+      "Microsoft"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 3,
+    "topicId": 1,
+    "question": "Chọn thẻ HTML đúng nhất cho định dạng tiêu đề lớn nhất?",
+    "answers": ["<h6>", "<h1>", "<head>", "<heading>"],
+    "correctAnswer": 1
+  },
+  {
+  "id": 4,
+  "topicId": 2,
+  "question": "Thuộc tính CSS nào dùng để thay đổi màu nền?",
+  "answers": ["color", "background-color", "bgcolor", "background"],
+  "correctAnswer": 1
+},
+{
+  "id": 5,
+  "topicId": 2,
+  "question": "Trong CSS, thuộc tính nào dùng để thay đổi cỡ chữ?",
+  "answers": ["font-style", "text-size", "font-size", "text-style"],
+  "correctAnswer": 2
+},
+{
+  "id": 6,
+  "topicId": 3,
+  "question": "Trong JavaScript, hàm nào dùng để in ra console?",
+  "answers": ["print()", "log()", "console.log()", "write()"],
+  "correctAnswer": 2
+}
+,
+{
+  "id": 7,
+  "topicId": 3,
+  "question": "Kiểu dữ liệu nào KHÔNG tồn tại trong JavaScript?",
+  "answers": ["Number", "Boolean", "Character", "Undefined"],
+  "correctAnswer": 2
+},
+{
+  "id": 8,
+  "topicId": 3,
+  "question": "Từ khóa nào dùng để khai báo biến có phạm vi block?",
+  "answers": ["var", "let", "const", "both let & const"],
+  "correctAnswer": 3
+},
+{
+  "id": 9,
+  "topicId": 3,
+  "question": "Hàm nào trong JS dùng để chuyển chuỗi thành số nguyên?",
+  "answers": ["parseInt()", "toString()", "JSON.parse()", "parseFloat()"],
+  "correctAnswer": 0
+},
+{
+  "id": 10,
+  "topicId": 3,
+  "question": "Kết quả của '2' + 2 trong JavaScript là gì?",
+  "answers": ["4", "'22'", "NaN", "Error"],
+  "correctAnswer": 1
+},
+{
+  "id": 11,
+  "topicId": 2,
+  "question": "Thuộc tính nào dùng để căn giữa text trong CSS?",
+  "answers": ["align", "text-align", "center", "justify"],
+  "correctAnswer": 1
+},
+{
+  "id": 12,
+  "topicId": 2,
+  "question": "Giá trị mặc định của position trong CSS là gì?",
+  "answers": ["absolute", "fixed", "relative", "static"],
+  "correctAnswer": 3
+},
+{
+  "id": 13,
+  "topicId": 2,
+  "question": "CSS viết tắt của cụm từ nào?",
+  "answers": [
+    "Creative Style Sheets",
+    "Computer Style Sheets",
+    "Cascading Style Sheets",
+    "Colorful Style Sheets"
+  ],
+  "correctAnswer": 2
+},
+{
+  "id": 14,
+  "topicId": 1,
+  "question": "Thẻ nào dùng để tạo đường link trong HTML?",
+  "answers": ["<a>", "<link>", "<href>", "<url>"],
+  "correctAnswer": 0
+},
+{
+  "id": 15,
+  "topicId": 1,
+  "question": "Thuộc tính nào của thẻ <img> dùng để thay thế khi hình ảnh không load?",
+  "answers": ["src", "alt", "title", "href"],
+  "correctAnswer": 1
+},
+{
+  "id": 16,
+  "topicId": 1,
+  "question": "Thẻ nào trong HTML được dùng để tạo danh sách có thứ tự?",
+  "answers": ["<ul>", "<ol>", "<li>", "<dl>"],
+  "correctAnswer": 1
+},
+{
+  "id": 17,
+  "topicId": 1,
+  "question": "Thuộc tính nào của thẻ <form> xác định phương thức gửi dữ liệu?",
+  "answers": ["method", "action", "type", "target"],
+  "correctAnswer": 0
+},
+{
+  "id": 18,
+  "topicId": 1,
+  "question": "Trong HTML5, thẻ nào được dùng để nhúng video?",
+  "answers": ["<video>", "<media>", "<movie>", "<embed>"],
+  "correctAnswer": 0
+},
+{
+  "id": 19,
+  "topicId": 2,
+  "question": "Thuộc tính nào trong CSS dùng để thay đổi font chữ?",
+  "answers": ["font-weight", "font-family", "font-style", "font-size"],
+  "correctAnswer": 1
+},
+{
+  "id": 20,
+  "topicId": 2,
+  "question": "Trong CSS, đơn vị nào là tương đối?",
+  "answers": ["px", "em", "cm", "pt"],
+  "correctAnswer": 1
+},
+{
+  "id": 21,
+  "topicId": 2,
+  "question": "Thuộc tính nào giúp bo góc cho một phần tử?",
+  "answers": ["border", "border-style", "border-radius", "outline-radius"],
+  "correctAnswer": 2
+},
+{
+  "id": 22,
+  "topicId": 2,
+  "question": "Giá trị nào của display giúp ẩn một phần tử?",
+  "answers": ["none", "hidden", "invisible", "block"],
+  "correctAnswer": 0
+},
+{
+  "id": 23,
+  "topicId": 3,
+  "question": "Trong JavaScript, toán tử === có nghĩa là gì?",
+  "answers": [
+    "So sánh giá trị",
+    "So sánh giá trị và kiểu dữ liệu",
+    "Gán giá trị",
+    "Không hợp lệ"
+  ],
+  "correctAnswer": 1
+},
+{
+  "id": 24,
+  "topicId": 3,
+  "question": "Trong JavaScript, mảng được khai báo bằng cặp ký hiệu nào?",
+  "answers": ["{}", "[]", "()", "<>"],
+  "correctAnswer": 1
+},
+{
+  "id": 25,
+  "topicId": 3,
+  "question": "Phương thức nào trả về độ dài của một mảng?",
+  "answers": ["size()", "count()", "length", "index()"],
+  "correctAnswer": 2
+}
+,
+{
+  "id": 26,
+  "topicId": 3,
+  "question": "Phương thức nào dùng để thêm phần tử vào cuối mảng?",
+  "answers": ["push()", "pop()", "shift()", "unshift()"],
+  "correctAnswer": 0
+},
+{
+  "id": 27,
+  "topicId": 3,
+  "question": "Trong JavaScript, null và undefined khác nhau ở điểm nào?",
+  "answers": [
+    "Không khác gì",
+    "null là giá trị rỗng, undefined là chưa được gán",
+    "undefined là giá trị rỗng, null là chưa gán",
+    "Cả hai đều là object"
+  ],
+  "correctAnswer": 1
+},
+{
+  "id": 28,
+  "topicId": 3,
+  "question": "Hàm nào để hiển thị hộp thoại cảnh báo?",
+  "answers": ["prompt()", "alert()", "confirm()", "message()"],
+  "correctAnswer": 1
+},
+{
+  "id": 29,
+  "topicId": 3,
+  "question": "Trong vòng lặp for, từ khóa nào để thoát vòng lặp ngay lập tức?",
+  "answers": ["exit", "stop", "break", "continue"],
+  "correctAnswer": 2
+},
+{
+  "id": 30,
+  "topicId": 4,
+  "question": "ReactJS được phát triển bởi công ty nào?",
+  "answers": ["Google", "Microsoft", "Facebook", "Twitter"],
+  "correctAnswer": 2
+},
+{
+  "id": 31,
+  "topicId": 4,
+  "question": "JSX trong React là gì?",
+  "answers": [
+    "Một kiểu dữ liệu mới",
+    "Cú pháp mở rộng của JavaScript để viết UI",
+    "Một framework CSS",
+    "Một database"
+  ],
+  "correctAnswer": 1
+},
+{
+  "id": 32,
+  "topicId": 4,
+  "question": "Hook nào trong React được dùng để quản lý state?",
+  "answers": ["useState", "useEffect", "useRef", "useMemo"],
+  "correctAnswer": 0
+},
+{
+  "id": 33,
+  "topicId": 4,
+  "question": "Hook nào được dùng để chạy side effect trong React?",
+  "answers": ["useState", "useEffect", "useReducer", "useCallback"],
+  "correctAnswer": 1
+},
+{
+  "id": 34,
+  "topicId": 4,
+  "question": "Trong React, props được dùng để làm gì?",
+  "answers": [
+    "Truyền dữ liệu từ component cha sang con",
+    "Lưu trữ state cục bộ",
+    "Tạo router",
+    "Định nghĩa hook"
+  ],
+  "correctAnswer": 0
+},
+{
+  "id": 35,
+  "topicId": 4,
+  "question": "Trong React, component nào được viết bằng function?",
+  "answers": [
+    "Class Component",
+    "Function Component",
+    "Arrow Component",
+    "Main Component"
+  ],
+  "correctAnswer": 1
+}
+
+
+
+],
+"answers": [
+  {
+    "id": 1,
+    "userId": 5,
+    "topicId": 1,
+    "answers": [
+      { "questionId": 1, "answer": 2 },
+      { "questionId": 2, "answer": 0 },
+      { "questionId": 3, "answer": 1 },
+      { "questionId": 4, "answer": 1 }
+    ]
+  },
+  {
+    "id": 2,
+    "userId": 6,
+    "topicId": 2,
+    "answers": [
+      { "questionId": 5, "answer": 2 },
+      { "questionId": 6, "answer": 3 },
+      { "questionId": 7, "answer": 1 },
+      { "questionId": 8, "answer": 0 }
+    ]
+  },
+  {
+    "id": 3,
+    "userId": 7,
+    "topicId": 3,
+    "answers": [
+      { "questionId": 9, "answer": 0 },
+      { "questionId": 10, "answer": 1 },
+      { "questionId": 11, "answer": 2 },
+      { "questionId": 12, "answer": 3 }
+    ]
+  },
+  {
+    "id": 4,
+    "userId": 8,
+    "topicId": 4,
+    "answers": [
+      { "questionId": 30, "answer": 2 },
+      { "questionId": 31, "answer": 1 },
+      { "questionId": 32, "answer": 0 },
+      { "questionId": 33, "answer": 1 }
+    ]
+  },
+  {
+    "id": 5,
+    "userId": 9,
+    "topicId": 1,
+    "answers": [
+      { "questionId": 14, "answer": 0 },
+      { "questionId": 15, "answer": 1 },
+      { "questionId": 16, "answer": 1 }
+    ]
+  },
+  {
+    "id": 6,
+    "userId": 10,
+    "topicId": 2,
+    "answers": [
+      { "questionId": 19, "answer": 1 },
+      { "questionId": 20, "answer": 1 },
+      { "questionId": 21, "answer": 2 },
+      { "questionId": 22, "answer": 0 }
+    ]
+  },
+  {
+    "id": 7,
+    "userId": 11,
+    "topicId": 3,
+    "answers": [
+      { "questionId": 23, "answer": 1 },
+      { "questionId": 24, "answer": 1 },
+      { "questionId": 25, "answer": 2 },
+      { "questionId": 26, "answer": 0 }
+    ]
+  },
+  {
+    "id": 8,
+    "userId": 12,
+    "topicId": 4,
+    "answers": [
+      { "questionId": 34, "answer": 0 },
+      { "questionId": 35, "answer": 1 }
+    ]
+  },
+  {
+    "id": 9,
+    "userId": 13,
+    "topicId": 2,
+    "answers": [
+      { "questionId": 11, "answer": 1 },
+      { "questionId": 12, "answer": 3 },
+      { "questionId": 13, "answer": 2 }
+    ]
+  },
+  {
+    "id": 10,
+    "userId": 14,
+    "topicId": 1,
+    "answers": [
+      { "questionId": 17, "answer": 0 },
+      { "questionId": 18, "answer": 0 }
+    ]
+  }
+]
+
+
+}

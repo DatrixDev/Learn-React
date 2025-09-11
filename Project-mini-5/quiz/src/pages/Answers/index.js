@@ -14,7 +14,7 @@ function Answers() {
             for (let i = 0; i < answersByUserId.length; i++) {
                 result.push(
                     {
-                        ...topics.find(item => item.id === answersByUserId[i].topics),
+                       ...topics.find(item => item.id === answersByUserId[i].topicId),
                         ...answersByUserId[i]
                     }
                 );

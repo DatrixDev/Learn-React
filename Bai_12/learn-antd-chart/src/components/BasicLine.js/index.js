@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { Line } from "@ant-design/plots";
+import { Point } from "@antv/g2/lib/mark/point";
+import { Slider } from "@antv/g2/lib/component/slider";
 
 function BasicLine() {
     const [dataChart, setDataChart] = useState([]);
@@ -19,6 +21,11 @@ function BasicLine() {
         xField: "date",
         yField: "quantity",
         smooth: true,
+        Point : true,
+        Slider  : {
+            start : 0,
+            end : 1
+        }
     };
 
 

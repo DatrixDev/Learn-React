@@ -13,3 +13,10 @@
 + Api demo: https://khoa-hoc-front-end.vercel.app/api/basic-line.json
             https://khoa-hoc-front-end.vercel.app/api/doanh-thu-cong-ty.json
 + charts.ant.design
++ width : chiều rộng của biểu đồ 
++ height : chiều cao của biểu đồ 
++ autoFit : tự động điều chỉnh kích thước
++ smooth : chuyển đường kẻ thành dạng đường cong mượt hơn
++ point : true 
++ slider : {}
++Multi Line : 

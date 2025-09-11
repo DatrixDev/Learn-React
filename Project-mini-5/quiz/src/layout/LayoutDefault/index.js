@@ -1,7 +1,7 @@
 import { NavLink, Outlet } from "react-router-dom";
 import "./LayoutDefault.scss"
 import { getCookie } from "../../helpers/cookie";
-import  {useSelector} from "react-redux"
+import { useSelector } from "react-redux"
 function LayoutDefalt() {
 
     const token = getCookie("token");
@@ -33,12 +33,15 @@ function LayoutDefalt() {
                         </ul>
                     </div>
                     <div className="layout-default__account">
-                        {token ? (<>
-                            <NavLink to="/logout">Đăng nhập</NavLink>
-                        </>) : (<>
-                            <NavLink to="/login">Đăng nhập</NavLink>
-                            <NavLink to="/register">Đăng ký</NavLink>
-                        </>)}
+                        {token ? (
+                            <NavLink to="/logout">Đăng xuất</NavLink>
+                        ) : (
+                            <>
+                                <NavLink to="/login">Đăng nhập</NavLink>
+                                <NavLink to="/register">Đăng ký</NavLink>
+                            </>
+                        )}
+
                     </div>
                 </header>
                 <main className="layout-default__main">
