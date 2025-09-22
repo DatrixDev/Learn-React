@@ -1,0 +1,33 @@
+/* .country {
+    border: 1px solid orange;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    min-width: 200px;
+}
+.country__item{
+    border-bottom: 1px solid orange;
+}
+.country__item:last-child {
+    border-bottom: 0;
+}
+.country__text{
+    display: block;
+    background-color: orange;
+    color: white;
+    padding: 6px 10px;
+
+}
+.country__sub{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.country__sub-item{
+    border-bottom: 1px solid orange;
+    padding: 6px 10px;
+}
+.country__sub-item:last-child{
+    border-bottom: 0;
+} */
