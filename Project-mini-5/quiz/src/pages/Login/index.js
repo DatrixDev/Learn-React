@@ -6,7 +6,6 @@ import { useDispatch } from "react-redux"
 import { checkLogin } from "../../actions/login";
 
 function Login() {
-    // const [form] = Form.useForm();
     const navigate = useNavigate();
     const dispatch = useDispatch();
 
